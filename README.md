@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require ilhammalik/ilhammalik "*"
+php composer.phar require ilhammalik11/ilhammalik "*"
 ```
 
 or add
