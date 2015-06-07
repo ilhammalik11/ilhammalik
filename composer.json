@@ -1,0 +1,21 @@
+{
+    "name": "ilhammalik/ilhammalik",
+    "description": "Hak Akses untuk Action Column",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension action column"," action control",""],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ilham Malik Ibrahim",
+            "email": "ilhammalik19@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ilhammalik\\grid\\": ""
+        }
+    }
+}
