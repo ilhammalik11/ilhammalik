@@ -1,6 +1,6 @@
 IlhamActionColumn
 =================
-Hak Akses untuk Action Column
+Yii2-admin integration  Action Column by User
 
 Installation
 ------------
@@ -27,5 +27,12 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
-```php
-<?= \ilhammalik\grid\AutoloadExample::widget(); ?>```
+Add Code common\config\bootstrap.php
+
+//add this
+Yii::$container->set('yii\grid\ActionColumn', [
+   'class' => 'common\components\ActionColumn',
+   'visibleCallback' => function($name) {
+       return \Yii::$app->user->can($name);
+   },
+]);
