@@ -2,7 +2,7 @@
     "name": "ilhammalik/ilhammalik",
     "description": "Hak Akses untuk Action Column",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension action column"," action control",""],
+    "keywords": ["yii2","extension action column"," action control"],
     "license": "BSD-3-Clause",
     "authors": [
         {
