@@ -27,9 +27,12 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
-Add Code common\config\bootstrap.php
+Add Code Into to
+```
+common\config\bootstrap.php
+```
 
-//add this
+add this
 ```
 Yii::$container->set('yii\grid\ActionColumn', [
    'class' => 'common\components\ActionColumn',
