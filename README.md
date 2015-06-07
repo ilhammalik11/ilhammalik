@@ -32,7 +32,7 @@ Add Code Into to
 common\config\bootstrap.php
 ```
 
-add this
+create defendensi Injection 
 ```
 Yii::$container->set('yii\grid\ActionColumn', [
    'class' => 'common\components\ActionColumn',
