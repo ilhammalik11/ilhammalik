@@ -9,25 +9,9 @@ use yii\helpers\Html;
  */
 class ActionColumn extends \yii\grid\ActionColumn
 {
-    /**
-     * @var \Closure
-     * 
-     * ```
-     * function($name, $model, $key, $index){
-     *     switch($name){
-     *         case 'view':
-     *             return true;
-     *         case 'update':
-     *         case 'delete':
-     *             return $model->status == Order::STATUS_DRAFT;
-     *     }
-     * }
-     * ```
-     */
+ 
     public $visibleCallback;
-    /**
-     * @inheritdoc
-     */
+  
     protected function renderDataCellContent($model, $key, $index)
     {
         return preg_replace_callback('/\\{([\w\-\/]+)\\}/', function ($matches) use ($model, $key, $index) {
